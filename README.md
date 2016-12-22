@@ -1,5 +1,5 @@
 # Learn Python!
-_Learn Python the fun way!_
+![Learn Python the fun way](art/learnpythonthefunway.png)
 
 ## What does it use?
 **[Electron](http://electron.atom.io).**
