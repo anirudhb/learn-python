@@ -1,0 +1,14 @@
+{
+  "name": "learn-python",
+  "version": "0.0.1",
+  "description": "Learn Python the fun way! Use a cool UI to help you learn!",
+  "main": "app.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/anirudhb/learn-python"
+  },
+  "author": "Anirudh Balaji",
+  "license": "GPL-3.0"
+}
