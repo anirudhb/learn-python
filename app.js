@@ -16,8 +16,6 @@ function createWindow() {
         slashes: true
     }))
 
-    win.webContents.openDevTools()
-
     // Advanced JavaScript awesomeness
     win.on("closed", () => win = null)
 }
