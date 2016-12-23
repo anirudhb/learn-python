@@ -50,6 +50,7 @@ code#shell textarea#inv-shell {
   width: 95%;
   resize: none;
   overflow: hidden;
+  line-height: 1;
 }
 
 code#shell textarea[disabled]#inv-shell {
