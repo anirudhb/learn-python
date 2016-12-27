@@ -2,19 +2,32 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Hello, World!</title>
+        <title>Learn Python</title>
         <link rel="stylesheet" href="css/shell.css" />
+        <link rel="stylesheet" href="css/base.css" />
     </head>
     <body>
-        <code id="shell" class="labeled" data-label="shell">
+      <div class="left">
+        Learn Python Index
+      </div>
+      <div class="content">
+        <code id="shell" class="labeled" data-label="python interpreter">
             <div class="line">
               <span class="prompt">
-                $
+                >>>
               </span>
-              <textarea id="inv-shell"></textarea>
+              <input id="inv-shell" />
+            </div>
+            <div class="line">
+              <span class="prompt">
+                ...
+              </span>
             </div>
         </code>
+        As you can see, I glow up!
+      </div>
     </body>
     <!-- Scripts: jQuery is NOT used -->
-    <script src="js/resize-input.js"></script>
+    <script src="js/input-autowidth.js"></script>
+    <script src="js/input-fixtab.js"></script>
 </html>

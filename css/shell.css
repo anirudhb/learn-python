@@ -1,11 +1,3 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-/* body {
-  background-color: grey;
-} */
-
 code {
   font-family: "Input Mono",
                "Anonymous Pro",
@@ -41,19 +33,24 @@ code.labeled::before {
   font-size: 10px;
 }
 
-code#shell textarea#inv-shell {
+code#shell #inv-shell {
+  tab-size: 4;
   background-color: grey;
   outline: none;
   border: none;
   font: inherit;
   color: inherit;
-  width: 95%;
+  display: inline-block;
   resize: none;
   overflow: hidden;
   line-height: 1;
 }
 
-code#shell textarea[disabled]#inv-shell {
+.line {
+  position: relative;
+}
+
+code#shell [disabled]#inv-shell {
   cursor: default;
 }
 
